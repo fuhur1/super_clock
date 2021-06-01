@@ -91,13 +91,13 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
           controller: _tabController,
           tabs: <Widget>[
             Tab(
-              icon: Icon(Icons.cloud_outlined),
+              icon: Icon(Icons.watch_later_outlined),
             ),
             Tab(
-              icon: Icon(Icons.beach_access_sharp),
+              icon: Icon(Icons.timer),
             ),
             Tab(
-              icon: Icon(Icons.brightness_5_sharp),
+              icon: Icon(Icons.add),
             ),
           ],
         ),
